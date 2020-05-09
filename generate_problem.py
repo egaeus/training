@@ -70,13 +70,13 @@ def generateFile(contestId, index, problemUrl):
     readW.close()
     return url
 
-user = 'egaeus'
+user = 'egaeus.code'
 problems = getProblems()
 problems = sorted(problems, key = solvedCount)
 dictAcceptedProblems = getAcceptedProblems(user)
 acceptedProblems = getListAcceptedProblems(problems, dictAcceptedProblems)
-medianProblem = acceptedProblems[int(math.floor(len(acceptedProblems)/3))]
-delta = min(medianProblem['solvedCount']/10, 1000)
+#medianProblem = acceptedProblems[int(math.floor(len(acceptedProblems)/3))]
+#delta = min(medianProblem['solvedCount']/10, 1000)
 #probablyProblems = getProbablyProblems(problems, dictAcceptedProblems, medianProblem['solvedCount'] - delta, medianProblem['solvedCount'])
 probablyProblems = getProbablyProblems(problems, dictAcceptedProblems, 1800, 2200)
 selectedProblem = probablyProblems[randint(0, len(probablyProblems) - 1)]

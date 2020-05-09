@@ -21,7 +21,11 @@ import static java.lang.Integer.parseInt;
 public class CFTemplate {
     public static void main(String args[]) throws Throwable {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        for (String ln; (ln = in.readLine()) != null; ) {
+        int T = parseInt(in.readLine());
+        for(int t = 0; t < T; t++) {
+
+        }
+        for (String ln; (ln = in.readLine()) != null && !ln.equals(""); ) {
             int N = parseInt(ln);
         }
     }
