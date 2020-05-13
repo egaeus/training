@@ -1,10 +1,10 @@
 package practice.codeforces; /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
- * @veredict
- * @url
- * @category
- * @date
+ * @veredict Acccepted
+ * @url https://codeforces.com/problemset/problem/1343/A
+ * @category math
+ * @date 11/05/2020
  **/
 
 import java.io.BufferedReader;
