@@ -1,3 +1,12 @@
+/**
+ * @author egaeus
+ * @mail sebegaeusprogram@gmail.com
+ * @veredict Accepted
+ * @url https://codeforces.com/problemset/problem/1328/E
+ * @category trees, lca
+ * @date 13/05/2020
+ **/
+
 package practice.codeforces;
 
 import java.io.BufferedReader;
@@ -15,6 +24,8 @@ public class CF1328E {
             int N = parseInt(st.nextToken()), M = parseInt(st.nextToken());
             ArrayList<Integer> lAdy[] = new ArrayList[N];
             int[] parents = new int[N];
+            int[] sqrtParents = new int[N];
+            int sqrt = (int) Math.sqrt(N);
             int[] level = new int[N];
             for (int i = 0; i < N; i++)
                 lAdy[i] = new ArrayList<>();
@@ -29,6 +40,7 @@ public class CF1328E {
             queue.add(0);
             boolean[] visited = new boolean[N];
             visited[0] = true;
+            Arrays.fill(sqrtParents, 0);
             for (; !queue.isEmpty(); ) {
                 int u = queue.poll();
                 for (int v : lAdy[u]) {
@@ -37,31 +49,43 @@ public class CF1328E {
                         visited[v] = true;
                         level[v] = level[u] + 1;
                         parents[v] = u;
+                        if (level[v] % sqrt == 0)
+                            sqrtParents[v] = u;
+                        else sqrtParents[v] = sqrtParents[u];
                     }
                 }
             }
-            int[] path = new int[N];
             for (int i = 0; i < M; i++) {
                 st = new StringTokenizer(in.readLine());
-                int[] arr = new int[parseInt(st.nextToken())];
-                int maxLevel = 0;
-                int maxNode = 0;
-                for (int j = 0; j < arr.length; j++) {
-                    arr[j] = parseInt(st.nextToken()) - 1;
-                    if (level[arr[j]] > maxLevel) {
-                        maxLevel = level[arr[j]];
-                        maxNode = arr[j];
+                TreeMap<Integer, TreeSet<Integer>> map = new TreeMap<>();
+                for (int j = 0, J = parseInt(st.nextToken()); j < J; j++) {
+                    int u = parseInt(st.nextToken()) - 1;
+                    TreeSet<Integer> list = map.get(level[u]);
+                    if (list == null)
+                        list = new TreeSet<>();
+                    list.add(u);
+                    map.put(level[u], list);
+                }
+                boolean ws = true;
+                int parent = -1;
+                for (Map.Entry<Integer, TreeSet<Integer>> entry : map.descendingMap().entrySet()) {
+                    TreeSet<Integer> list = entry.getValue();
+                    parent = parents[list.first()];
+                    for (int j : list)
+                        if (parents[j] != parent)
+                            ws = false;
+                    if (ws) {
+                        Integer lastLevel = map.floorKey(entry.getKey() - 1);
+                        if(lastLevel != null) {
+                            while(level[parent]>lastLevel) {
+                                if(level[sqrtParents[parent]] < lastLevel)
+                                    parent = parents[parent];
+                                else parent = sqrtParents[parent];
+                            }
+                            map.get(lastLevel).add(parent);
+                        }
                     }
                 }
-                path[0] = i + 1;
-                for (int u = maxNode; u > 0; u = parents[u])
-                    path[u] = i + 1;
-                boolean ws = true;
-                for (int u : arr)
-                    if (path[u] != i + 1 && path[parents[u]] != i + 1) {
-                        ws = false;
-                        break;
-                    }
                 sb.append(ws ? "YES" : "NO").append("\n");
             }
         }
