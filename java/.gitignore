@@ -1,6 +1,7 @@
 /logs/
 .gradle
 */bin/
+/lib/
 /build/
 /out/
 !gradle/wrapper/gradle-wrapper.jar
