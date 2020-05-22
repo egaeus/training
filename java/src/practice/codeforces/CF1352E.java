@@ -2,7 +2,7 @@ package practice.codeforces; /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url <https://codeforces.com/problemset/problem/1352/E
+ * @url <https://codeforces.com/problemset/problem/1352/E>
  * @category two pointers
  * @date 09/05/2020
  **/

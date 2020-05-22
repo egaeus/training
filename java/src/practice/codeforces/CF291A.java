@@ -3,7 +3,7 @@ package practice.codeforces;
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url <https://codeforces.com/problemset/problem/291/A
+ * @url <https://codeforces.com/problemset/problem/291/A>
  * @category implementation
  * @date 29/10/2019
  **/

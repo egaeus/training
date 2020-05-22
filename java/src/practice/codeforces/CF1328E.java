@@ -2,7 +2,7 @@
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url <https://codeforces.com/problemset/problem/1328/E
+ * @url <https://codeforces.com/problemset/problem/1328/E>
  * @category trees, lca
  * @date 13/05/2020
  **/

@@ -4,7 +4,7 @@ package practice.codeforces;
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict
- * @url <https://codeforces.com/problemset/problem/1343/F
+ * @url <https://codeforces.com/problemset/problem/1343/F>
  * @category graph
  * @date 11/05/2020
  **/

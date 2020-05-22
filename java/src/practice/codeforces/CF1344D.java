@@ -3,8 +3,8 @@ package practice.codeforces;
 /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
- * @veredict
- * @url <https://codeforces.com/problemset/problem/1344/D
+ * @veredict WA
+ * @url <https://codeforces.com/problemset/problem/1344/D>
  * @category
  * @date
  **/

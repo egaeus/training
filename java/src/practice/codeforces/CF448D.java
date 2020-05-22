@@ -3,7 +3,7 @@ package practice.codeforces;
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url <https://codeforces.com/problemset/problem/448/D
+ * @url <https://codeforces.com/problemset/problem/448/D>
  * @category binary search
  * @date 28/10/2019
  **/
