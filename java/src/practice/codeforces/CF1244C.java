@@ -3,7 +3,7 @@ package practice.codeforces;
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url https://codeforces.com/problemset/problem/1244/C
+ * @url <https://codeforces.com/problemset/problem/1244/C
  * @category math
  * @date 16/10/2019
  **/

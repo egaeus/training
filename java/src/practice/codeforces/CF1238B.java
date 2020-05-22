@@ -3,7 +3,7 @@ package practice.codeforces;
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url https://codeforces.com/problemset/problem/1238/B
+ * @url <https://codeforces.com/problemset/problem/1238/B
  * @category greedy
  * @date 09/10/2019
  **/

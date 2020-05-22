@@ -2,7 +2,7 @@ package practice.codejam; /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000523
+ * @url <https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000523
  * @category binary search
  * @date March, 2019
  **/

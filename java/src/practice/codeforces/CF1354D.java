@@ -2,7 +2,7 @@ package practice.codeforces; /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url https://codeforces.com/problemset/problem/1354/D
+ * @url <https://codeforces.com/problemset/problem/1354/D>
  * @category bit
  * @date 18/05/2020
  **/

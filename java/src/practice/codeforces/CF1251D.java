@@ -2,7 +2,7 @@ package practice.codeforces; /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict W.A.
- * @url https://codeforces.com/problemset/problem/1251/D
+ * @url <https://codeforces.com/problemset/problem/1251/D
  * @category binary search
  * @date 24/10/2019
  **/

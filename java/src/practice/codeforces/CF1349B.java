@@ -3,8 +3,8 @@ package practice.codeforces;
 /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
- * @veredict W.A.
- * @url https://codeforces.com/problemset/problem/1349/B
+ * @veredict Accepted
+ * @url <https://codeforces.com/problemset/problem/1349/B
  * @category arrays
  * @date 12/05/2020
  **/
@@ -31,7 +31,7 @@ public class CF1349B {
                     contains = true;
                 if (i > 0 && Math.min(arr[i], arr[i - 1]) >= K && Math.max(arr[i], arr[i - 1]) >= Math.min(arr[i], arr[i - 1]))
                     ws = true;
-                if (i > 2) {
+                if (i > 1) {
                     int[] a = new int[]{arr[i - 2], arr[i - 1], arr[i]};
                     Arrays.sort(a);
                     if (a[1] >= K)

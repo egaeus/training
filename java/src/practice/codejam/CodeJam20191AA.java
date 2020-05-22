@@ -2,7 +2,7 @@ package practice.codejam; /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict W.A.
- * @url https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05
+ * @url <https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05
  * @category adhoc, implementation
  * @date March, 2019
  **/

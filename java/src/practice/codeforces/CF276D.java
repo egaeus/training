@@ -3,7 +3,7 @@ package practice.codeforces;
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url https://codeforces.com/problemset/problem/276/D
+ * @url <https://codeforces.com/problemset/problem/276/D
  * @category bitwise
  * @date 17/04/2020
  **/

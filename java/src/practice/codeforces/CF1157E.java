@@ -2,7 +2,7 @@ package practice.codeforces; /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url https://codeforces.com/probslemset/problem/1157/E
+ * @url <https://codeforces.com/problemset/problem/1157/E>
  * @category greedy, data structures
  * @date Marzo, 2019
  **/

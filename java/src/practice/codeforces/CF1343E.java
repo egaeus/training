@@ -2,7 +2,7 @@ package practice.codeforces; /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url https://codeforces.com/problemset/problem/1343/E
+ * @url <https://codeforces.com/problemset/problem/1343/E
  * @category graph
  * @date 11/05/2020
  **/

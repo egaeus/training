@@ -3,7 +3,7 @@ package practice.codeforces;
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict W.A.
- * @url https://codeforces.com/problemset/problem/1000/E
+ * @url <https://codeforces.com/problemset/problem/1000/E>
  * @category graph
  * @date 30/04/2020
  **/

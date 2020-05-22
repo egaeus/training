@@ -1,8 +1,9 @@
-package practice.codeforces; /**
+package practice.codeforces;
+/**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url https://codeforces.com/problemset/problem/1157/C1
+ * @url <https://codeforces.com/problemset/problem/1157/C1>
  * @category greedy
  * @date Marzo, 2019
  **/

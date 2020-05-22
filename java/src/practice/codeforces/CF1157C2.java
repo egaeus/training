@@ -4,7 +4,7 @@ package practice.codeforces;
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict W.A.
- * @url https://codeforces.com/problemset/problem/1157/C2
+ * @url <https://codeforces.com/problemset/problem/1157/C2>
  * @category greedy
  * @date Marzo, 2019
  **/

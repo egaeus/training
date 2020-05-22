@@ -2,7 +2,7 @@ package practice.codeforces; /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
- * @url https://codeforces.com/problemset/problem/1354/C
+ * @url <https://codeforces.com/problemset/problem/1354/C2>
  * @category geom
  * @date 17/05/2020
  **/
