@@ -1,7 +1,7 @@
 package practice.codeforces; /**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
- * @veredict Not sended
+ * @veredict T.L.E.
  * @url <https://codeforces.com/problemset/problem/1360/G>
  * @category flow
  * @date 24/05/2020
