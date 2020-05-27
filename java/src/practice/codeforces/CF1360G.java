@@ -28,12 +28,22 @@ public class CF1360G {
             for (int i = 0; i < N; i++) {
                 cap[s][i] = A;
                 for (int j = 0; j < M; j++) {
-                    cap[N+j][d] = B;
-                    cap[i][N+j] = 1;
+                    cap[N + j][d] = B;
+                    cap[i][N + j] = 1;
                 }
             }
             if (A * N == M * B) {
-                int f = edmondsKarp(cap, s, d, cap.length);
+                sb.append("YES\n");
+                char[][] result = new char[N][M];
+                for (char[] a : result) Arrays.fill(a, '0');
+                for (int i = 0, f = 0; i < N; i++) {
+                    for (int j = 0; j < A; j++)
+                        result[i][(j + f) % M] = '1';
+                    f = (f + M - A) % M;
+                }
+                for (char[] a : result)
+                    sb.append(new String(a)).append("\n");
+                /*int f = edmondsKarp(cap, s, d, cap.length);
                 if (A * N == f) {
                     sb.append("YES\n");
                     char[][] result = new char[N][M];
@@ -45,7 +55,7 @@ public class CF1360G {
                     for (char[] a : result)
                         sb.append(new String(a)).append("\n");
                 } else
-                    sb.append("NO\n");
+                    sb.append("NO\n");*/
             } else
                 sb.append("NO\n");
 
