@@ -3,23 +3,41 @@ package practice.codeforces; /**
  * @mail sebegaeusprogram@gmail.com
  * @veredict T.L.E.
  * @url <https://codeforces.com/problemset/problem/1359/F>
- * @category ?
+ * @category geom
  * @date 28/05/2020
  **/
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Random;
+import java.util.StringTokenizer;
 
-import static java.lang.Integer.*;
-import static java.lang.Math.*;
+import static java.lang.Integer.parseInt;
+import static java.lang.Math.abs;
 
 public class CF1359F {
 
     static double eps = 1e-10;
 
+    static void generateCase() {
+        int N = 25000;
+        StringBuilder sb = new StringBuilder();
+        sb.append(N).append("\n");
+        Random random = new Random();
+        for (int i = 0; i < N; i++) {
+            sb.append(random.nextInt(2001) - 1000).append(" ");
+            sb.append(random.nextInt(2001) - 1000).append(" ");
+            sb.append(random.nextInt(2001) - 1000).append(" ");
+            sb.append(random.nextInt(2001) - 1000).append(" ");
+            sb.append(random.nextInt(1001)).append("\n");
+        }
+        System.out.print(new String(sb));
+    }
+
     public static void main(String args[]) throws Throwable {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         for (String ln; (ln = in.readLine()) != null && !ln.equals(""); ) {
+            long time = System.currentTimeMillis();
             int N = parseInt(ln);
             double[][] lines = new double[N][];
             double[] velocity = new double[N];
@@ -34,8 +52,8 @@ public class CF1359F {
             double solution = Double.POSITIVE_INFINITY;
             for (int i = 0; i < N; i++)
                 for (int j = i + 1; j < N; j++) {
-                    if (abs(lines[i][4] - lines[j][4]) < eps ||
-                            (abs(lines[i][4]) == Double.POSITIVE_INFINITY && abs(lines[j][4]) == Double.POSITIVE_INFINITY)) {
+                    if ((abs(lines[i][4]) == Double.POSITIVE_INFINITY && abs(lines[j][4]) == Double.POSITIVE_INFINITY)
+                            || abs(lines[i][4] - lines[j][4]) < eps) {
                         solution = Math.min(solution, time(lines[i][0],
                                 lines[i][1], lines[i][2], lines[i][3],
                                 lines[j][0], lines[j][1], lines[j][2], lines[j][3],
@@ -49,10 +67,10 @@ public class CF1359F {
                                         lines[i][3], intersect[0], intersect[1]) &&
                                 f(lines[j][0], lines[j][1], lines[j][2], lines[j][3],
                                         intersect[0], intersect[1])) {
-                            double distanceA = distance(lines[i][0], lines[i][1],
-                                    intersect[0], intersect[1]);
-                            double distanceB = distance(lines[j][0], lines[j][1],
-                                    intersect[0], intersect[1]);
+                            double distanceA = Math.sqrt(distance(lines[i][0], lines[i][1],
+                                    intersect[0], intersect[1]));
+                            double distanceB = Math.sqrt(distance(lines[j][0], lines[j][1],
+                                    intersect[0], intersect[1]));
                             solution = Math.min(solution, Math.max(distanceA / velocity[i], distanceB / velocity[j]));
                         }
                     }
@@ -61,6 +79,7 @@ public class CF1359F {
                 System.out.println(solution);
             else
                 System.out.println("No show :(");
+            System.out.println(System.currentTimeMillis() - time);
         }
     }
 
@@ -73,7 +92,7 @@ public class CF1359F {
     }
 
     static double distance(double x1, double y1, double x2, double y2) {
-        return hypot(x1 - x2, y1 - y2);
+        return (x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2);
     }
 
     static double time(double x1, double y1, double x2, double y2,
@@ -84,10 +103,10 @@ public class CF1359F {
             double x = (x1 + x3) / 2, y = (y1 + y3) / 2;
             if (f(x1, y1, x2, y2, x, y) &&
                     f(x3, y3, x4, y4, x, y)) {
-                return distance(x1, y1, x3, y3) / (v1 + v2);
+                return Math.sqrt(distance(x1, y1, x3, y3)) / (v1 + v2);
             } else if (f(x1, y1, x2, y2, x, y))
-                return distance(x1, y1, x3, y3) / v1;
-            return distance(x1, y1, x3, y3) / v2;
+                return Math.sqrt(distance(x1, y1, x3, y3)) / v1;
+            return Math.sqrt(distance(x1, y1, x3, y3)) / v2;
         }
         return Double.POSITIVE_INFINITY;
     }
@@ -99,15 +118,12 @@ public class CF1359F {
     }
 
     static double distPL(double x1, double y1, double x2, double y2, double px, double py) {
-        return Math.abs((x2 - x1) * (y1 - py) - (y2 - y1) * (x1 - px)) / distance(x1, y1, x2, y2);
+        return Math.abs((x2 - x1) * (y1 - py) - (y2 - y1) * (x1 - px)) / Math.sqrt(distance(x1, y1, x2, y2));
     }
 
     static double distPS(double x1, double y1, double x2, double y2, double px, double py) {
         double dP = distance(x1, y1, x2, y2), d1 = distance(x1, y1, px, py),
                 d2 = distance(x2, y2, px, py);
-        dP *= dP;
-        d1 *= d1;
-        d2 *= d2;
         return (d2 + dP < d1 || d1 + dP < d2) ? Math.sqrt(Math.min(d1, d2)) : distPL(x1, y1, x2, y2, px, py);
     }
 }
