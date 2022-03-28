@@ -1,4 +1,6 @@
-package practice.codeforces; /**
+package practice.codeforces; 
+
+/**
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Accepted
