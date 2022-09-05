@@ -1,6 +1,6 @@
 package practice.uva; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId 476
  * @problemName Points in Figures: Rectangles 

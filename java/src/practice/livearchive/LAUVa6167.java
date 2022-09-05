@@ -1,6 +1,6 @@
 package practice.livearchive; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict T.L.E.
  * @problemId 6167
  * @problemName Fridge Lock

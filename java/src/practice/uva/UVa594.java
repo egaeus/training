@@ -1,6 +1,6 @@
 package practice.uva; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId 594
  * @problemName One Little, Two Little, Three Little Endians

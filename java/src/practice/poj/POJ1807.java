@@ -1,6 +1,6 @@
 package practice.poj; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId 1807
  * @problemName Mayan Dates

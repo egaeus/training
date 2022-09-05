@@ -1,6 +1,6 @@
 package practice.spoj; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId NY10E
  * @problemName Non-Decreasing Digits

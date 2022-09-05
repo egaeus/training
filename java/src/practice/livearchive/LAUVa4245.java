@@ -1,6 +1,6 @@
 package practice.livearchive; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict No enviado
  * @problemId 4245
  * @problemName Su-Su-Sudoku

@@ -1,6 +1,6 @@
 package practice.uva; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId 10093
  * @problemName An Easy Problem!

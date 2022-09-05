@@ -1,6 +1,6 @@
 package practice.tju; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict R.E.
  * @problemId 1350
  * @problemName Primary Arithmetic

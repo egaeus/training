@@ -1,6 +1,6 @@
 package practice.uva; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId 231
  * @problemName Testing the CATCHER

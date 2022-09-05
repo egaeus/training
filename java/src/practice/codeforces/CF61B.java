@@ -1,7 +1,7 @@
 package practice.codeforces;
 /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @url <https://codeforces.com/problemset/problem/61/B>
  * @category implementation

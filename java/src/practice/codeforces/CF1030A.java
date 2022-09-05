@@ -1,10 +1,10 @@
 package practice.codeforces;
 /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
- * @veredict Not sended
- * @url <https://codeforces.com/problemset/problem/>
- * @category ?
+ * @mail jsbeltran.valhalla@gmail.com
+ * @veredict Accepted
+ * @url https://codeforces.com/problemset/problem/1030/A
+ * @category adhoc
  * @date 27/05/2020
  **/
 

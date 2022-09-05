@@ -1,6 +1,6 @@
 package practice.uva; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict No enviado
  * @problemId 12637
  * @problemName 30 Minutes or Less

@@ -1,6 +1,6 @@
 package practice.spoj; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId ANARC09E
  * @problemName Probability One

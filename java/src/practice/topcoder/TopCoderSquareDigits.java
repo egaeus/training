@@ -1,6 +1,6 @@
 package practice.topcoder; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId SquareDigits
  * @problemName SquareDigits

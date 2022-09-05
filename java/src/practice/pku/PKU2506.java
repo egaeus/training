@@ -1,6 +1,6 @@
 package practice.pku; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId 2506
  * @judge http://acm.pku.edu.cn/JudgeOnline/

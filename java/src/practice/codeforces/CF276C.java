@@ -1,6 +1,6 @@
 package practice.codeforces; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict No enviado
  * @problemId 276
  * @problemName Little Girl and Maximum Sum

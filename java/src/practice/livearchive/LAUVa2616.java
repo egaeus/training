@@ -1,6 +1,6 @@
 package practice.livearchive; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId 2616
  * @problemName I hate SPAM, but some people love it

@@ -1,6 +1,6 @@
 package practice.codeforces; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId 350A
  * @problemName TL

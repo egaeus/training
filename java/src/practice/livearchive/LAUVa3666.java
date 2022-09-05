@@ -1,6 +1,6 @@
 package practice.livearchive; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict T.L.E.
  * @problemId 3666
  * @problemName What a Special Graph

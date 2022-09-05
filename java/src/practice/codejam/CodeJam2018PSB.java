@@ -1,6 +1,6 @@
 package practice.codejam; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict
  * @url <https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/00000000000004c0
  * @category greedy

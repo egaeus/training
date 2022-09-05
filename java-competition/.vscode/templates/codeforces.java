@@ -2,11 +2,11 @@
  * @author egaeus
  * @mail sebegaeusprogram@gmail.com
  * @veredict Not sended
- * @problemId ${fileBasenameNoExtension##find=^CF##replace=##}
- * @problemName ${input:Problem name:}
+ * @problemId 
+ * @problemName 
  * @judge http://codeforces.com/
- * @category ${input:Categoty:}
- * @level ${input:Level:}
+ * @category 
+ * @level
  * @date ${date}
  */
 

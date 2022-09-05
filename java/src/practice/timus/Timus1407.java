@@ -1,6 +1,6 @@
 package practice.timus; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict No enviado
  * @problemId 1407
  * @problemName One-two, One-two

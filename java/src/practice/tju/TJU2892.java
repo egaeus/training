@@ -1,6 +1,6 @@
 package practice.tju; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
  * @problemId 2892
  * @problemName Task

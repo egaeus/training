@@ -1,6 +1,6 @@
 package practice.codeforces; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict Acccepted
  * @url <https://codeforces.com/problemset/problem/1343/A>
  * @category math

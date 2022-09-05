@@ -1,6 +1,6 @@
 package practice.uva; /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict T.L.E. (Closest Pair mal hecho)
  * @problemId 10245
  * @problemName The Closest Pair Problem

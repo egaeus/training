@@ -1,7 +1,7 @@
 package practice.uva;
 /**
  * @author egaeus
- * @mail sebegaeusprogram@gmail.com
+ * @mail jsbeltran.valhalla@gmail.com
  * @veredict TLE
  * @category graph
  * @date 5/06/2020
