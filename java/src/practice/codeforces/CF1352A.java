@@ -1,8 +1,10 @@
-package practice.codeforces; /**
+package practice.codeforces;
+
+/**
  * @author egaeus
  * @mail jsbeltran.valhalla@gmail.com
  * @veredict Accepted
- * @url <https://codeforces.com/problemset/problem/1352/A>
+ * @url https://codeforces.com/problemset/problem/1352/A
  * @category math, implementation
  * @date 09/05/2020
  **/
